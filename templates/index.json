@@ -158,7 +158,8 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "enable_video_looping": false,
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/2444328_Gel_Under_1920x1080 (1) (1) (1).mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
@@ -312,7 +313,6 @@
         "heading": "Video",
         "heading_size": "h1",
         "enable_video_looping": true,
-        "video": "shopify://files/videos/1103319_1080p_Wearing_1280x720 (1).mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": true,
