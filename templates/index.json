@@ -274,7 +274,7 @@
         "text_eEUGrB": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">review</a>.</p>",
             "text_style": "body"
           }
         },
