@@ -381,7 +381,7 @@
             "icon_2": "return",
             "heading_2": "Heading",
             "icon_3": "truck",
-            "heading_3": "<a href=\"/blogs/all/test\" title=\"Key Trends in Cosmetics for 2025\">Heading</a>"
+            "heading_3": "Leave the heading label blank to hide the icon column."
           }
         }
       },
