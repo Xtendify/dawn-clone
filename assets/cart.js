@@ -29,6 +29,7 @@ class CartItems extends HTMLElement {
 
   connectedCallback() {
     this.cartUpdateUnsubscriber = subscribe(PUB_SUB_EVENTS.cartUpdate, (event) => {
+      console.log(event.source);
       if (event.source === 'cart-items') {
         return;
       }
