@@ -120,6 +120,7 @@ class FacetFiltersForm extends HTMLElement {
 
     // Remove facets that are no longer returned from the server
     Array.from(facetDetailsElementsFromDom).forEach((currentElement) => {
+      console.log(currentElement.id);
       if (!Array.from(facetDetailsElementsFromFetch).some(({ id }) => currentElement.id === id)) {
         currentElement.remove();
       }
