@@ -29,7 +29,7 @@
     <div>
       <h2>{{ 'customer.orders.title' | t }}</h2>
 
-      {% paginate customer.orders by 1 %}
+      {% paginate customer.orders by 20 %}
         {%- if customer.orders.size > 0 -%}
           <table role="table" class="order-history">
             <caption class="visually-hidden">
@@ -90,7 +90,7 @@
           <p>{{ 'customer.orders.none' | t }}</p>
         {%- endif -%}
 
-        {%- if paginate.pages > 1 -%}
+        {%- if paginate.pages > 20 -%}
           {%- if paginate.parts.size > 0 -%}
             <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
               <ul role="list">
